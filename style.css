@@ -1,0 +1,12 @@
+body{background-color: #0011ff;
+    background-image: url('https://cdn.pixabay.com/photo/2023/05/16/14/10/background-7997725_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;}
+#table{
+    background: linear-gradient(90deg, rgba(0, 138, 133, 1) 0%, rgba(25, 136, 247, 10) 100%);;
+}
+#h1{
+    color: #ff0066;
+    text-decoration: underline;
+}    
