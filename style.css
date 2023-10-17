@@ -1,8 +1,8 @@
 body{background-color: #0011ff;
-    background-image: url('https://cdn.pixabay.com/photo/2023/05/16/14/10/background-7997725_1280.jpg');
+    background-image: url('https://i.pinimg.com/564x/54/51/4c/54514cb3939dad74e0c0e689446b6641.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: repeat-x;}
+    background-repeat: no-repeat;}
 #table{
     background: linear-gradient(90deg, rgba(0, 138, 133, 1) 0%, rgba(25, 136, 247, 10) 100%);;
 }
