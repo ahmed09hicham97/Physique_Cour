@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="content.css">
     <title>Cours 2éme année collége</title>
 </head>
 <body>
-    <em><center><h1>Bonjour chers élèves de 2ème année</h1></center></em>
+    <header>
+        <nav class="navbar navbar-expand-custom navbar-mainbg">
+          <a class="navbar-brand navbar-logo" href="index.html">Physique <br>Chimie</a>
+          <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <div class="hori-selector">
+                <div class="left"></div>
+      
+              </div>
+      
+              <li class="nav-item">
+                <a class="nav-link" href="1ére.html"><i class="far fa-copy">1ére</i>1ére année</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2éme.html"><i class="far fa-clone">2éme</i>2éme année</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3éme.html"><i class="far fa-calendar-alt">3ème</i>3éme année</a>
+              </li>
+      
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="container">
+    <em><center><h1 id="h1">Bonjour chers élèves de 2ème année</h1></center></em>
     <center>
         <table border="2">
             <thead>
@@ -30,5 +62,30 @@
             </h3></tbody>
         </table>
     </center>
+    <br><br><br><br>
+    </main>
+    <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="https://www.pinterest.fr/search/pins/?rs=ac&len=2&q=physique%20chimie&eq=phys&etslf=7386"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+            <li><a href="https://www.youtube.com/@professeurehanaekhabbache4511"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="https://www.google.com/search?q=c%27est+quoi+physique+chimie&oq=c%27est+quoi+physique+&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyCggAEEUYFhgeGDkyBwgBEAAYgAQyBwgCEAAYgAQyCAgDEAAYFhgeMgoIBBAAGA8YFhgeMgoIBRAAGA8YFhgeMgoIBhAAGA8YFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEJMjkxMTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"><ion-icon name="logo-google"></ion-icon></a></li>
+        </ul>
+      
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="1ére.html">1ére</a></li>
+            <li><a href="2éme.html">2éme</a></li>
+            <li><a href="3éme.html">3éme</a></li>
+        </ul>
+        <p class="copyright"> Made in Morocoo.</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>      
 </body>
 </html>
