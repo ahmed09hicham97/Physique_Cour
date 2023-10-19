@@ -21,6 +21,19 @@ background-color: #EBE4D1;
 #e3:hover{
     color:#B0578D;
 }
-.back{
-    background-color: whitesmoke;
+#back{
+    background-image: url(https://cdn.futura-sciences.com/sources/images/dossier/1561/01-intro-1561.jpg);
+    
+}
+.about{
+    text-decoration: none;
+}
+#head{
+    text-align: center;
+    color: #191D88;
+    font-size: 100px;
+    text-decoration:underline;
+}
+#head:hover{
+    color: green;
 }
