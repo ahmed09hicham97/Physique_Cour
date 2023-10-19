@@ -1,0 +1,10 @@
+body{ background-image: url(https://images.alphacoders.com/129/1298126.jpg);}
+#e1:hover{
+color: aqua;
+}
+#e2:hover{
+    color: aqua;
+    }
+#table{
+    background-image: radial-gradient(circle, rgba(25, 136, 247, 1) 0%, rgba(247, 25, 136, 1) 91%);
+}
