@@ -48,3 +48,61 @@ background-color: #EBE4D1;
 #b1{
     background-color: aqua;
 }
+#navBack{
+    display: flex;
+    justify-content: center;
+}
+#nav{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    position: relative;
+    width:524px;
+    height:50px;
+    background-color: #222;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding:0 23px;
+    z-index: 1;
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(45deg,#4f1919,#ff3333);
+    border-radius: 8px;
+    transition:.5s;
+}
+nav a:nth-child(1):hover~span{
+    left: 0;
+    width: 120px;
+}
+nav a:nth-child(2):hover~span{
+    left: 111px;
+    width: 110px;
+}
+nav a:nth-child(3):hover~span{
+    left: 185px;
+    width: 110px;
+}
+nav a:nth-child(4):hover~span{
+    left: 255px;
+    width: 110px;
+}
+nav a:nth-child(5):hover~span{
+    left: 375px;
+    width: 150px;
+}
