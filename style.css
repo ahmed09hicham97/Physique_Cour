@@ -39,11 +39,11 @@ background-color: #EBE4D1;
 #head{
     text-align: center;
     color: #191D88;
-    font-size: 100px;
+    font-size: 60px;
     text-decoration:underline;
 }
 #head:hover{
-    color: green;
+    color:rgb(0, 92, 95);
 }
 #b1{
     background-color: aqua;
