@@ -79,7 +79,7 @@ nav a{
 nav span{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 55px;
     width: 120px;
     height: 100%;
     background: linear-gradient(45deg,#4f1919,#ff3333);
@@ -87,22 +87,18 @@ nav span{
     transition:.5s;
 }
 nav a:nth-child(1):hover~span{
-    left: 0;
+    left: 55px;
     width: 120px;
 }
 nav a:nth-child(2):hover~span{
-    left: 111px;
+    left: 135px;
     width: 110px;
 }
 nav a:nth-child(3):hover~span{
-    left: 185px;
+    left: 215px;
     width: 110px;
 }
 nav a:nth-child(4):hover~span{
-    left: 255px;
-    width: 110px;
-}
-nav a:nth-child(5):hover~span{
-    left: 375px;
+    left: 295px;
     width: 150px;
 }
