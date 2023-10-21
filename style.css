@@ -79,26 +79,30 @@ nav a{
 nav span{
     position: absolute;
     top: 0;
-    left: 55px;
-    width: 120px;
+    left: 0;
+    width: 30%;
     height: 100%;
     background: linear-gradient(45deg,#4f1919,#ff3333);
     border-radius: 8px;
     transition:.5s;
 }
 nav a:nth-child(1):hover~span{
-    left: 55px;
-    width: 120px;
+    left: 10%;
+    width: 23%;
 }
 nav a:nth-child(2):hover~span{
-    left: 135px;
-    width: 110px;
+    left: 25%;
+    width: 23%;
 }
 nav a:nth-child(3):hover~span{
-    left: 215px;
-    width: 110px;
+    left: 40%;
+    width: 23%;
 }
 nav a:nth-child(4):hover~span{
-    left: 295px;
-    width: 150px;
+    left: 55%;
+    width: 30%;
 }
+@media screen and (max-width: 768px) {
+    /* Styles pour les écrans de moins de 768px de largeur */
+  }
+  

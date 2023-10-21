@@ -281,3 +281,7 @@ footer .wave#wave4 {
     background-position-x: 1000px;
   }
 }
+@media screen and (max-width: 768px) {
+  /* Styles pour les écrans de moins de 768px de largeur */
+}
+

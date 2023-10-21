@@ -81,3 +81,6 @@ textarea {
 [type="submit"]:hover {
   background: #1a9778;
 }
+@media screen and (max-width: 768px) {
+  /* Styles pour les écrans de moins de 768px de largeur */
+}
