@@ -102,6 +102,32 @@ nav a:nth-child(4):hover~span{
     left: 55%;
     width: 30%;
 }
+.set {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+  }
+.w{
+   background-color: #191D88;
+   padding: 20px;
+}
+.a{
+    background-color: #ff3333;
+padding: 20px;
+}
+.s{
+    background-color: crimson;
+padding: 20px;
+}
+.w:hover{
+    background-color: aqua;
+}
+.a:hover{
+    background-color: #db820d;
+}
+.s:hover{
+    background-color: blueviolet;
+}
 @media screen and (max-width: 768px) {
     /* Styles pour les écrans de moins de 768px de largeur */
   }
