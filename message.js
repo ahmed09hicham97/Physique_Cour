@@ -10,7 +10,7 @@ else{
     alert("Bien venu "+yourName+" sur le site de la Prof Zaineb Elmountassir ");
 }
 let appareil = prompt("Quel Appareil utiliser vous ?");
-if(appareil==="téléphone" || appareil==="tablette"){
+if(appareil==="telephone" || appareil==="tablette"){
   alert("Veuillez retourner Votre pour une meilleure experience")
 } else if(appareil==="pc" || appareil==="PC"){
   alert("vous pouvez emetre des sons en clicant sur les touches suivante :'w,s,a'.")
