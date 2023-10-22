@@ -9,12 +9,5 @@ if(yourName==="Zaineb" || yourName==="zaineb"){
 else{
     alert("Bien venu "+yourName+" sur le site de la Prof Zaineb Elmountassir ");
 }
-let appareil = prompt("Quel Appareil utiliser vous ?");
-if(appareil==="telephone" || appareil==="tablette"){
-  alert("Veuillez retourner Votre pour une meilleure experience")
-} else if(appareil==="pc" || appareil==="PC"){
-  alert("vous pouvez emetre des sons en clicant sur les touches suivante :'w,s,a'.")
-} else{
-  alert("Il n'y a aucun appareil appellé "+appareil)
-  alert("veuillez actualiser la page et donner le nom d'un appareil concret 🗘.")
-}
+let instruction = alert("Veuillez retourner votre télèphone pour une meilleur experience.")
+ 
