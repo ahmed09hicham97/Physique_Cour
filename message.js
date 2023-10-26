@@ -9,5 +9,4 @@ if(yourName==="Zaineb" || yourName==="zaineb"){
 else{
     alert("Bien venu "+yourName+" sur le site de la Prof Zaineb Elmountassir ");
 }
-let instruction = alert("Veuillez retourner votre télèphone pour une meilleur experience.")
  

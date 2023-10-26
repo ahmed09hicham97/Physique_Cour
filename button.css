@@ -4,17 +4,17 @@
     font-family: sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    justify-content:center;
+    align-items:center;
     min-height: 25vh;
     background-color:transparent;
 }
 .a{
-    position: relative;
+    position:relative;
     display: inline-block;
-    padding: 25px 30px;
-    text-transform: uppercase;
+    padding: 10px 35px;
+    text-transform: capitalize;
     letter-spacing: 4px;
     color:#020504;
     font-size: 1.2rem;
